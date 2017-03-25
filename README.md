@@ -27,7 +27,7 @@ then copy all skins to your fcitx configuration path
 
 	cp fcitx-skin-collection/skin/* ~/.config/fcitx/skin/
 
-Now you can right click *input keyboard* on system tray, and you will see 'skin' item.
+Now you can right click *input keyboard* on system tray, and you will see `Skin` item.
 
 Choose one :), and enjoy it.
 
