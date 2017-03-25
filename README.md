@@ -1,7 +1,8 @@
 # fcitx-skin-collection
 Collection of fcitx skin I like.
 
-## material
+## skins
+### material
 Copy from github: [fcitx-skin-material](https://github.com/ootaharuki99/fcitx-skin-material).
 
 The screenshot below shows how it looks:
@@ -9,10 +10,24 @@ The screenshot below shows how it looks:
 ![](screenshots/material-inputdialog.png)
 ![](screenshots/material-panel.png)
 
-## mint-dark
+### mint-dark
 Copy from github: [Fcitx Linux Mint skin](https://github.com/fu-sen/fcitx-mint-skin.git).
 
 The screenshot below shows how it looks:
 
 ![](screenshots/mint-dark-inputdialog.png)
 ![](screenshots/mint-dark-panel.png)
+
+## How To Install
+Firstly, clone this repository
+
+	git clone https://github.com/gaunthan/fcitx-skin-collection.git
+
+then copy all skins to your fcitx configuration path
+
+	cp fcitx-skin-collection/skin/* ~/.config/fcitx/skin/
+
+Now you can right click *input keyboard* on system tray, and you will see 'skin' item.
+
+Choose one :), and enjoy it.
+
