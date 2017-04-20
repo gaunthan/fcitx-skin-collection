@@ -19,13 +19,11 @@ The screenshot below shows how it looks:
 ![](screenshots/mint-dark-panel.png)
 
 ## How To Install
-Firstly, clone this repository
+Firstly, clone this repository, then copy all skins to your fcitx configuration path
 
 	git clone https://github.com/gaunthan/fcitx-skin-collection.git
-
-then copy all skins to your fcitx configuration path
-
-	cp fcitx-skin-collection/skin/* ~/.config/fcitx/skin/
+	mkdir ~/.config/fcitx/skin/ -p
+	cp fcitx-skin-collection/skin/* ~/.config/fcitx/skin/ -r
 
 Now you can right click *input keyboard* on system tray, and you will see `Skin` item.
 
