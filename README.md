@@ -21,7 +21,7 @@ The screenshot below shows how it looks:
 ## How To Install
 Directly run the following commands on your prompt
 
-	curl -OL https://raw.githubusercontent.com/gaunthan/fcitx-skin-collection/master/install-fcitx-skins.sh | bash
+	curl -sLf https://raw.githubusercontent.com/gaunthan/fcitx-skin-collection/master/install-fcitx-skins.sh | bash
 
 Now you can right click *input keyboard* on system tray, and you will see `Skin` item.
 
