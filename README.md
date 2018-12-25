@@ -18,11 +18,16 @@ The screenshot below shows how it looks:
 ![](screenshots/mint-dark-inputdialog.png)
 ![](screenshots/mint-dark-panel.png)
 
-## How To Install
-Directly run the following commands on your prompt
+## How To Use
+Run the following commands on your prompt to install skins:
 
 	curl -sLf https://raw.githubusercontent.com/gaunthan/fcitx-skin-collection/master/install-fcitx-skins.sh | bash
 
-Now you can right click *input keyboard* on system tray, and you will see `Skin` item.
+Now you can right click *input keyboard* on system tray, and you will see installed skins under `Skin` item. Choose one, and enjoy it.
 
-Choose one :), and enjoy it.
+In addition, you also can change fcitx's skin from command line (remember modifying SkinType to skin that you want):
+
+	SkinType=material
+	sed -i 's/SkinType=.*/SkinType='"$SkinType"'/' conf/fcitx-classic-ui.config
+
+Last but not least, remember to restart fcitx to make change effective.
